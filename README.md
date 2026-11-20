@@ -1,4 +1,4 @@
-# @seydx/fritzbox
+# @motzke/fritzbox
 
 > A promise based library for accessing a fritzbox via TR-064 API of an AVM Fritz!Box. Forked from [@ulfalfa](https://gitlab.com/ulfalfa/fritzbox)
 
@@ -13,7 +13,7 @@ This library is capable of:
 ## Install
 
 ```
-npm install @seydx/fritzbox
+npm install @motzke/fritzbox
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ npm install @seydx/fritzbox
 With the method `exec` you can access all services and actions in the fritz box even with parameters
 
 ```js
-const Fritzbox = require('@seydx/fritzbox');
+const Fritzbox = require('@motzke/fritzbox');
 const fritzbox = new Fritzbox({ username: 'test', password: 'testPwd123' });
 
 // Async/Await:
@@ -43,7 +43,7 @@ async function getDeviceInfo () {
 ### Getting all currently known hosts by Fritz!Box
 
 ```js
-const Fritzbox = require('@seydx/fritzbox');
+const Fritzbox = require('@motzke/fritzbox');
 const fritzbox = new Fritzbox({ username: 'test', password: 'testPwd123' });
 
 // Async/Await:
@@ -60,7 +60,7 @@ async function getHosts () {
 ### Retrieving all services with their corresponding actions
 
 ```js
-const Fritzbox = require('@seydx/fritzbox');
+const Fritzbox = require('@motzke/fritzbox');
 const fritzbox = new Fritzbox({ username: 'test', password: 'testPwd123' });
 
 // Async/Await:
